@@ -1,0 +1,155 @@
+
+/* header section */
+.header{
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    
+    /* width: 1600px;
+    height: 808px;
+    flex-shrink: 0; */
+}
+.header-container{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    /* text-align: right; */
+    color: #FFF;
+    padding: 216px 50px 166px 845px;
+}
+.header-title{
+    /* padding: 216px 50px 364px 700px; */
+    font-size: 65px;
+    font-weight: 700;
+    
+}
+.header-description{
+    font-size: 16px;
+    font-weight: 400;
+    /* margin-top: 0px;
+    margin-bottom: 32px; */
+}
+.btn-primary{
+    color: #005FAC;
+    /* text-align: right; */
+    font-size: 20px;
+    font-weight: 600;
+    width: 160px;
+    height: 64px;
+    /* flex-shrink: 0; */
+    border-radius: 5px;
+    background: #FFF;
+    float: right;
+}
+
+/* body sections */
+/* about */
+.about{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    /* padding: 140px 300px 100px 200px; */
+}
+.failure{
+    /* padding: 370px 100px 214px 2px; */
+    
+}
+.failure-title{
+    display: block;
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 50px;
+}
+.failure-description{
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 250px;
+}
+.future-plans{
+    text-align: center;
+}
+.my-plans{
+    display: flex;
+    gap: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.positive-mindset-watch{
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+    /* background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%); */
+    padding-left: 80px;
+}
+.positive-mindset-map{
+    margin-top: -300px;
+    padding-left: 100px;;
+}
+.positive-mindset-title{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+.btn-secondary{
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 600;
+    /* line-height: normal; */
+    margin-top: 0px;
+    width: 160px;
+    height: 64px;
+}
+
+/* footer style  */
+footer{
+    margin-top: 300px;
+    background-color: black;
+}
+.column{
+    display: flex;
+    gap: 350px;
+    color: #F8F8F8;
+    padding: 130px 200px 130px 200px;
+}
+.column-1-title{
+    
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+.column-1-description{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.column-1-email, .column-1-phone{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.column-2-title{
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 600;
+}
+.btn-third{
+    border-radius: 8px;
+    background: #005FAC;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    width: 160px;
+    height: 64px;
+}
